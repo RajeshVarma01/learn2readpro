@@ -1,0 +1,518 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+
+  /* -----------------------about-box-one css-------------------- */
+
+.about-box-one{
+    /* position: relative; */
+    /* border: 1px solid red; */
+    align-items: center;
+    display: grid;
+    height: 20rem;
+    justify-items: center;
+    background: url(https://x.learn2read.co/static/media/aboutusbg.65ff27e77dea8544159e.jpg) 0% 0% / cover no-repeat;
+    background-repeat: no-repeat;
+}
+
+.about-box-one h1{
+    font-family: 'Quicksand', sans-serif;
+}
+
+/* -----------------------about-box-two css-------------------- */
+
+.about-box-two{
+    /* border: 1px solid black; */
+    display: flex;
+    background-color: #FFF9F1;
+}
+
+.about-box-two-card-1{
+    /* border: 1px solid red; */
+    width: 50%;
+    /* margin: 10px 10px; */
+}
+
+.about-box-two-card-1 img{
+    margin: 60px 40px;
+    height: 500px;
+}
+
+.about-box-two-card-2{
+    /* border: 1px solid red; */
+    /* width: 70%; */
+    margin: 0 auto;
+}
+
+.about-box-two-card-2 h4{
+    margin-top: 60px;
+    letter-spacing: 5px;
+    color: red;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.about-box-two-card-2 h1{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+.about-box-two-card-2 p{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 15px;
+    color:  gray;
+    margin-top: 20px;
+    margin-left: 0px;
+}
+
+.about-box-two-card-2-inner-div{
+    /* border: 1px solid blue; */
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.box-two-last-div{
+    /* border: 1px solid green; */
+    margin: 2px;
+    display: flex;
+    width: 40%;
+    margin-top: 10px;
+}
+
+.box-two-last-div img{
+    height: 50px;
+}
+
+.box-two-last-div h5{
+    font-size: 15px;
+    font-family: 'Quicksand', sans-serif;
+    margin-left: 5px;
+} 
+
+/* -----------------------media querries for about-box-two-------------------- */
+
+@media screen and (max-width: 1200px){
+    .about-box-two{
+        /* border: 1px solid black; */
+        display: block;
+    }
+    .about-box-two-card-1{
+        /* border: 1px solid red; */
+        width: 100%;
+        /* margin: 10px 10px; */
+        display: flex;
+        justify-content: center;
+    }
+    .about-box-two-card-1 img{
+        margin: 60px 40px;
+        height: 600px;
+    }
+    .about-box-two-card-2{
+        width: 80%;
+    }
+    .about-box-two-card-2 h4{
+        /* margin-top: 60px; */
+        letter-spacing: 5px;
+        color: red;
+        font-family: 'Quicksand', sans-serif;
+    }
+    .box-two-last-div{
+        /* border: 1px solid green; */
+        margin: 2px;
+        display: flex;
+        width: 40%;
+        margin-top: 10px;
+    }
+    .about-box-two-card-2-inner-div{
+        /* border: 1px solid blue; */
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin-top: 30px;
+        height: 10rem;
+    }
+}
+
+/* -----------------------media querries for about-box-two-------------------- */
+
+@media screen and (max-width:620px){
+    .about-box-one h1{
+        font-size: medium;
+    }
+    .about-box-two-card-1 img{
+        margin: 60px 40px;
+        height: 250px;
+    }
+    .box-two-last-div h5{
+        font-size: 9px;
+    }
+    .about-box-two-card-2 h4{
+        font-size: 15px;
+    }
+    .about-box-two-card-2 h1{
+        font-size: 15px;
+    }
+    .about-box-two-card-2 p{
+        font-size: 10px;
+        line-height: 20px;
+    }
+}
+
+/* -------------------------about-box-three css------------------------ */
+
+.about-box-three{
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.box-three-card-one{
+    /* border: 2px solid red; */
+    width: 70%;
+}
+
+.box-three-card-one-one{
+    /* border: 1px solid green; */
+}
+
+.box-three-card-one-one h3{
+    color: red;
+    margin-left: 30px;
+    font-family: 'Quicksand', sans-serif;
+    letter-spacing: 5px;
+    margin-top: 60px;
+}
+
+.box-three-card-one-one h2{
+    margin-left: 30px;
+    font-family: 'Quicksand', sans-serif;
+    margin-top: 20px;
+}
+
+.box-three-card-one-one h4{
+    font-size: 23px;
+    margin-left: 30px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.box-three-card-one-one p{
+    margin-left: 30px;
+    font-family: 'Quicksand', sans-serif;
+    margin-top: 20px;
+    color: gray;
+}
+
+.box-three-card-one-two{
+    /* border: 1px solid blue; */
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    /* margin: 40px; */
+    padding: 30px;
+}
+  
+  .about-wrapper img{
+    max-width: 320px;
+    float: left;
+    /* border: 3px solid #fff */
+    border-radius: 10px;
+  }
+  
+  .about-wrapper{
+    margin: 15px 5px;
+    width: 350px;
+    /* border: 1px solid red; */
+  }
+  
+  .about-wrapper-img{
+    height: 320px;
+    margin-top: 50px;
+  }
+  
+  .about-wrapper p{
+    font-size: 17px;
+    width: 70%;
+    margin-left: 75px;
+    /* border: 1px solid black; */
+    color: gray;
+  }
+
+  .about-text-box h2,p{
+    font-family: 'Quicksand', sans-serif;
+  }
+
+  .about-text-box h2{
+    font-size: 15px;
+    font-family: 'Quicksand', sans-serif;
+  }
+
+  .about-text-box p{
+    font-size: 15px;
+    line-height: 3cap;
+  }
+
+/* --------------------------about-box-six css----------------------------- */
+
+.about-box-six{
+    /* border: 1px solid black; */
+}
+
+.about-box-six-box-1{
+    /* border: 1px solid green; */
+}
+
+.about-box-six-box-1 h4{
+    color: red;
+    font-family: 'Quicksand', sans-serif;
+    letter-spacing: 8px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.about-box-six-box-1 h2{
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.about-box-six-box-2{
+    /* border: 1px solid red; */
+    display: flex;
+}
+
+.about-box-six-card-one{
+    /* border: 1px solid red; */
+    width: 60%;
+}
+
+.i-frame-new{
+    height: 300px;
+    margin-left: 130px;
+    margin-top: 40px;
+    width: 70%;
+    margin-bottom: 40px;
+    border: none;
+}
+
+
+.about-box-six-card-two{
+    /* border: 1px solid blue; */
+}
+
+.about-box-six-card-two-last{
+    /* border: 1px solid yellow; */
+    margin-top: 150px;
+    box-shadow: rgba(170, 174, 179, 0.20) 0px 8px 24px;
+}
+
+.about-box-six-card-two-last h4{
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 18px;
+}
+
+.about-box-six-card-two-last p{
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 15px;
+    color: gray;
+}
+
+.last-p{
+    margin-left: 20px;
+}
+
+.about-box-six-card-two-last-last p{
+    /* border: 1px solid blue; */
+    width: 100%;
+    text-align: center;
+}
+
+.bs{
+    color: #3B5998;
+    font-size: 20px;
+    /* margin-top: 4px; */
+    margin-bottom: 4px;
+    margin-right: 10px;
+}
+
+.ai{
+    font-size: 28px;
+    /* border: 1px solid red; */
+    color: red;
+}
+
+.fa{
+    /* border: 1px solid black; */
+    /* margin-top: 4px; */
+    font-size: 20px;
+    color: #F706BC;
+    margin-bottom: 4px;
+    margin-left: 10px;
+}
+
+/* ------------------ MEDIA QUERRIES FOR MIN-WIDTH 1200PX -----------------------------------*/
+
+@media screen and (min-width: 1200px){
+    .box-three-card-two img{
+        /* height: 600px; */
+        width: 100%;
+    }
+    .box-three-card-two{
+        /* border: 1px solid rgb(0, 255, 157); */
+        width: 30%;
+    }
+}
+
+/* ------------------media querries for about-box-three */
+
+@media screen and (max-width: 1200px){
+    .about-box-three{
+        /* border: 1px solid rgb(255, 0, 0); */
+        display: block;
+    }
+    .box-three-card-one{
+        /* border: 2px solid red; */
+        width: 100%;
+    }
+    .about-wrapper{
+        margin: 15px 5px;
+        /* width: 550px; */
+        width: 47%;
+        /* border: 1px solid yellow; */
+      }
+      .box-three-card-one-two{
+        /* border: 1px solid blue; */
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        /* margin: 40px; */
+        padding: 30px;
+    }
+    .about-wrapper p{
+        font-size: 17px;
+        width: 70%;
+        margin-left: 75px;
+        /* border: 1px solid rgb(255, 22, 193); */
+        color: gray;
+      }
+      .box-three-card-two{
+        /* border: 1px solid rgb(0, 255, 157); */
+        width: 100%;
+    }
+    
+      .box-three-card-two img{
+        /* height: 700px; */
+        width: 100%;
+    }
+    .about-text-box h2,p{
+        font-family: 'Quicksand', sans-serif;
+      }
+    
+      .about-text-box h2{
+        font-size: 15px;
+        font-family: 'Quicksand', sans-serif;
+      }
+    
+      .about-text-box p{
+        font-size: 15px;
+        line-height: 3cap;
+      }
+}
+
+@media screen and (max-width: 1000px){
+    .about-box-six-box-2{
+        /* border: 1px solid rgb(60, 0, 255); */
+        display: block;
+        justify-content: center;
+    }
+    .about-box-six-card-one{
+        /* border: 1px solid red; */
+        width: 60%;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .i-frame-new{
+        height: 300px;
+        margin-top: 30px;
+        margin-left: 0px;
+        /* width: 350px; */
+        width: 100%;
+    }
+    .about-box-six-card-two{
+        /* border: 1px solid blue; */
+        width: 60%;
+        margin: 0 auto;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    
+    .about-box-six-card-two-last{
+        /* border: 1px solid yellow; */
+        margin-top: 30px;
+        box-shadow: rgba(170, 174, 179, 0.20) 0px 8px 24px;
+        /* margin: 10px; */
+        /* margin-left: 80px; */
+        width: 100%;
+    }
+    .about-box-six-card-two-last-last p{
+        /* border: 1px solid blue; */
+        width: 100%;
+        text-align: center;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .about-box-six-card-two{
+        /* border: 1px solid blue; */
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    
+    .about-box-six-card-two-last{
+        /* border: 1px solid yellow; */
+        margin-top: 30px;
+        box-shadow: rgba(170, 174, 179, 0.20) 0px 8px 24px;
+        /* margin: 10px; */
+        /* margin-left: 80px; */
+        width: 100%;
+    }
+    .about-box-six-card-one{
+        /* border: 1px solid red; */
+        width: 100%;
+        text-align: center;
+        margin: 0 auto;
+        margin-top: 30px;
+    }
+}
+
+@media screen and (max-width: 767px){
+    .about-wrapper{
+        margin: 15px 5px;
+        /* width: 550px; */
+        width: 80%;
+        /* border: 1px solid yellow; */
+      }
+}
+
+@media screen and (max-width: 500px){
+    .about-text-box p{
+        font-size: 10px;
+        margin-left: 50px;
+    }
+
+    .about-text-box h2{
+        font-size: 10px;
+    }
+
+    .about-wrapper img{
+        height:50px;
+        margin-top: 0px;
+      }
+}

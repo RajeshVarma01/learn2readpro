@@ -1,0 +1,249 @@
+::placeholder {
+    color: white;
+    font-size: medium;
+}
+
+.back-to-acc{
+    font-size: 18px;
+}
+
+.forgot{
+    color: white;
+    border: 1px solid white;
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    text-align: end;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.otp-btn{
+    border: none;
+    background-color: transparent;
+    color: white;
+    text-decoration: underline;
+    font-family: 'Quicksand', sans-serif;
+    /* border: 1px solid red; */
+    width: 100%;
+    margin-top: 20px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.right-signup-two{
+    /* border: 1px solid white; */
+    height: 21.5rem;
+}
+
+.right-signup-two-forgot{
+     border: 1px solid white;
+     width: 60%;
+     margin: 0 auto;
+     position: relative;
+     margin-top: -210px;
+}
+
+.right-signup-two-forgot h2{
+    color: white;
+    text-align: center;
+    font-weight: 300;
+}
+
+.right-signup-two-forgot input{
+    /* border: 1px solid blue; */
+    outline: none;
+    border: none;
+    margin-top: 20px;
+    width: 100%;
+    height: 3rem;
+    border-radius: 10px;
+    background-color: #3B3B5A;
+    color: white;
+}
+
+
+.right-signup-three-next{
+    /* border: 1px solid white; */
+    color: white;
+    margin-top: 50px;
+    display: block;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F1F33;
+    padding-top: 30px;
+}
+
+.login-select{
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 3rem;
+}
+
+
+select option{
+    background-color: black;
+}
+
+.right-signup-three-next p{
+    color: #6a6a82;
+}
+
+.right-signup-three-next button{
+    border: 1px solid greenyellow;
+    padding: 10px;
+    background: transparent;
+    color: white;
+    border-radius: 20px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.right-signup-three-next button:hover{
+    /* background-image: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%); */
+    background: linear-gradient(90deg, hsla(175, 79%, 63%, 1) 0%, hsla(82, 96%, 57%, 1) 100%);
+}
+
+.login-error-message{
+    color: red;
+    margin-top: 50px;
+    /* border: 1px solid green; */
+    margin-bottom: 50px;
+}
+/* -----------------------------------------------------------------------new css */
+
+/* VerticalNavbar.css */
+.navbar {
+    width: 200px;
+    height: 100%;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    left: -200px;
+    transition: left 0.3s ease;
+  }
+  
+  .navbar.open {
+    left: 0;
+  }
+  
+  .toggle-btn {
+    background-color: #555;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    padding: 10px;
+    cursor: pointer;
+    color: white;
+  }
+  
+  li:hover {
+    background-color: #555;
+  }
+  
+  /* --------------------------------------------------------------------------------- */
+
+  .login-div-one{
+    /* border: 1px solid red; */
+    display: block;
+    margin-top: 10px;
+  }
+
+  .login-div-two{
+    /* border: 1px solid blue; */
+    display: block;
+    margin-top: 10px;
+  }
+
+  .login-div-three{
+    border: 1px solid green;
+    margin-top: 10px;
+  }
+
+  .login-div-four{
+    border: 1px solid black;
+    margin-top: 10px;
+  }
+
+  .main-div {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .login-div-one,
+  .login-div-two,
+  .login-div-three,
+  .login-div-four {
+    display: none;
+    padding: 10px;
+    margin: 5px;
+  }
+  
+  .visible {
+    display: block;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  /* Add any additional styling as needed for your layout */
+  .mobile-input {
+    margin-bottom: 5px;
+    text-indent: 80px;
+  }
+
+  .mobile-input-pass {
+    margin-bottom: 5px;
+    text-indent: 20px;
+  }
+  
+  .forgot,
+  .login-btn {
+    margin-top: 5px;
+  }
+  
+
+  .visible {
+    display: block;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  /* Add any additional styling as needed for your layout */
+  .right-signup-two {
+    /* Add your styles for the form */
+  }
+  
+  .mobile-input {
+    /* Add your styles for the input field */
+  }
+  
+  .login-btn {
+    /* Add your styles for the login button */
+  }
+  
+  /* Add more styles as needed for other elements */
+  
+
+  .hidden {
+    display: none;
+}

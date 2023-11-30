@@ -1,0 +1,78 @@
+.modal-wrapper{
+    /* border: 1px solid red; */
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    background-color: black;
+    opacity: 0.5;
+}
+
+.modal-container{
+    /* border: 1px solid blue; */
+    width: 40%;
+    text-align: center;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 2.5rem 3rem;
+    /* border-radius: 0.5rem; */
+}
+
+.form-input{
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin: 5px;
+    height: 2.5rem;
+    width: 100%;
+    margin-top: 5px;
+    background-color: rgb(244, 236, 226);
+    text-indent: 10px;
+    font-size: 15px;
+}
+
+.form-option{
+    background-color: rgb(244, 236, 226);
+    color: black;
+}
+
+.error-msg{
+    color: red;
+}
+
+.form-btn-last-one{
+    /* border: 1px solid black; */
+    height: 3rem;
+    width: 49%;
+    border-radius: 5px;
+    background-color: #BA2AE1;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.form-btn-last-two{
+    border: 1px solid gray;
+    height: 3rem;
+    width: 49%;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.last-btns{
+    /* border: 1px solid blue; */
+    display: flex;
+    justify-content: space-between;
+    margin-left: 5px;
+    margin-top: 5px;
+    width: 100%;
+}
+
+form h2{
+    /* border: 1px solid black; */
+    font-family: 'Quicksand', sans-serif;
+    margin-bottom: 25px;
+}

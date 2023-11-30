@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+
+
+/* ------------------------- regular css for courses-box-two ------------------------- */
+
+.courses-h1{
+    /* border: 1px solid red; */
+    text-align: center;
+}
+
+.courses-box-two{
+    border: 1px solid #FFFAF4;
+    text-align: center;
+    background-color: #FFFAF4;
+}
+
+.courses-box-two h4{
+    color: red;
+    letter-spacing: 5px;
+    font-family: 'Quicksand', sans-serif;
+    margin-top: 50px;
+}
+
+.courses-box-two h3{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 300;
+    margin-top: 20px;
+}
+
+/* --------------------media querries for courses-box-two for max-width: 500px-------------------- */
+
+@media screen and (max-width: 500px){
+    .courses-box-two h4{
+        font-size: 15px;
+        text-align: left;
+    }
+    
+    .courses-box-two h3{
+        font-size: 10px;
+    }
+}
+
+.courses-box-three-cards{
+    /* border: 1px solid white; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /* margin: 40px; */
+    background-color: #FFFAF4;
+    /* margin-bottom: 40px; */
+  }
+  
+  .courses-box-three-card{
+    border: 10px solid white;
+    background-color: white;
+    text-align: left;
+    width: 300px;
+    margin: 20px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+  }
+  
+  .courses-box-three-card img{
+    height: 200px;
+    width: 100%;
+  }
+  
+  .courses-box-three-card h4{
+    margin-left: 5px;
+    font-size: 15px;
+    margin-top: 10px;
+    font-family: 'Quicksand', sans-serif;
+  }
+
+  .courses-box-three-card p{
+    margin-left: 5px;
+    font-size: 13px;
+    margin-top: 10px;
+    font-family: 'Quicksand', sans-serif;
+  }
+
+  /* ----------select-tag-css-------------------------- */
+
+  .courses-box-three-cards{
+    /* border: 1px solid red; */
+    border: none;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .select-design{
+    /* border: 2px solid blue; */
+    border: none;
+    /* height: 3rem; */
+    /* width: 20%; */
+    padding: 15px 30px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-right: 50px;
+  }
+
+ .option-btn{
+  /* background-color: aquamarine; */
+ }
+
+ /* -------------------------courses-cards-css----------------------------- */
+
+ .courses-box-four{
+  /* border: 3px solid green; */
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #FFFAF4;
+ }
+
+ .courses-main-cards{
+  /* border: 5px solid blue; */
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 90%;
+  margin: 0 auto;
+  margin-bottom: 80px;
+ }
+
+ .courses-cards{
+  border: 6px solid white;
+  width: fit-content;
+  /* margin: 0 auto; */
+  margin-top: 30px;
+  background-color: white;
+ }
+
+ .card{
+  /* border: 1px solid black; */
+ }
+
+ .item-para{
+  /* border: 1px solid red; */
+  margin-left: 5px;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 13px;
+ }
+
+ .div-beginner{
+  /* border: 1px solid blue; */
+  display: flex;
+  justify-content: space-between;
+ }
+
+ .div-beginner p{
+  font-size: 11px;
+ }
+
+ @media screen and (max-width: 360px){
+  .card{
+    /* border: 1px solid peru; */
+    width: 90%;
+    margin: 0 auto;
+  }
+  .div-beginner p{
+    font-size: 8px;
+   }
+   .item-para{
+    font-size: 10px;
+   }
+   .card h4{
+    font-size: 12px;
+   }
+   .beginner{
+    font-size: 12px;
+   }
+ }
+ 

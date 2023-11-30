@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+
+  .teachers-main-div{
+    background-color: #FFFAF4;
+  }
+
+  .teachers-main-div h2{
+    text-align: center;
+    letter-spacing: 5px;
+    color: red;
+    font-weight: 600;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 15px;
+    width: 100%;
+    margin-top: 90px;
+  }
+  
+  .teachers-main-div h3{
+    text-align: center;
+    font-size: 22px;
+    font-family: 'Quicksand', sans-serif;
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  .teachers-main-div-new{
+    border: 1px solid #FFFAF4;
+  }
+  
+  .teachers-div{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 0 auto;
+    /* border: 1px solid red; */
+  }
+  
+
+  @media screen and (max-width: 812px){
+    .teachers-div{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 80%;
+        margin: 0 auto;
+        /* border: 1px solid red; */
+      }
+      .teachers-main-div h2{
+        text-align: center;
+        letter-spacing: 5px;
+        color: red;
+        font-weight: 600;
+        font-family: 'Quicksand', sans-serif;
+        font-size: 15px;
+        width: 100%;
+        margin-top: 90px;
+      }
+      
+      .teachers-main-div h3{
+        text-align: center;
+        font-size: 15px;
+        font-family: 'Quicksand', sans-serif;
+        width: 100%;
+        margin-top: 20px;
+      }
+  }
+  
+  .teachers-cards{
+    text-align: center;
+    width: 285px;
+    margin: 20px;
+    background-color: white;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  }
+  
+  .teachers-cards :hover{
+    /* transform: translateY(-20px); */
+    cursor: pointer;
+  }
+  
+  .teachers-cards img{
+    height: 130px;
+    margin: 10px;
+    width: 45%;
+    border-radius: 70px;
+  }
+  
+  .teachers-cards h5{
+    font-size: large;
+    /* margin: 10px; */
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+  }
+  
+  .teachers-cards p{
+    margin: 10px;
+    font-size: 12px;
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+  }  
+
+  @media screen and (max-width: 400px){
+    .teachers-cards img{
+        height: 100px;
+        margin: 10px;
+        width: 39%;
+        border-radius: 70px;
+      }
+  }

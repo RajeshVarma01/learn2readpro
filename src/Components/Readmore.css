@@ -1,0 +1,323 @@
+.readmore-entire{
+    /* border: 1px solid black; */
+    background-color: #FFF9F1;
+}
+
+.readmore-main-box{
+    /* border: 3px solid black; */
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.readmore-sub-box-1{
+    /* border: 5px solid red; */
+    width: 68%;
+    font-family: 'Quicksand', sans-serif;
+    /* background-color: white; */
+    margin-top: 60px;
+}
+
+.connected-before{
+    /* border: 1px solid blue; */
+    height: 2rem;
+    background-color: #FFF9F1;
+}
+
+/* ----------------------sub-box-1-card-1 css---------------------------------- */
+
+.sub-box-1-card-1{
+    /* border: 1px solid blue; */
+    background-color: white;
+}
+
+.sub-box-1-card-1 p{
+    /* border: 1px solid firebrick; */
+    margin: 20px 10px;
+    color: gray;
+}
+
+.read-date{
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.read-name{
+    font-size: 15px;
+    font-weight: 300;
+    margin-left: 10px;
+}
+
+.read-comments{
+    font-size: 15px;
+    font-weight: 300;
+    margin-left: 10px;
+}
+
+.read-inside-insights-card-one{
+    display: flex;
+    margin: 10px;
+}
+
+.sub-box-1-card-1 h2{
+    margin: 10px;
+    width: 80%;
+}
+
+/* ----------------------sub-box-1-card-2 css---------------------------------- */
+
+.sub-box-1-card-2{
+    /* border: 1px solid red; */
+    display: flex;
+    background-color: white;
+}
+
+.ajay-profile img{
+    /* border: 1px solid black; */
+    height: 120px;
+    margin-top: 30px;
+}
+
+.ajay-content h1{
+    margin: 20px;
+}
+
+.ajay-content h3, h4, p{
+    margin-left: 10px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.ajay-content h4{
+    color: gray;
+}
+
+.ajay-content p{
+    color: rgb(154, 150, 150);
+}
+
+/* ----------------------sub-box-1-card-3 css---------------------------------- */
+
+.new-sub-box-1-card-3{
+    /* border: 2px solid green; */
+    margin-top: 20px;
+    background-color: white;
+}
+
+.sub-box-1-card-3{
+    display: flex;
+}
+
+.linsa-profile{
+    /* border: 1px solid blue; */
+}
+
+.linsa-profile img{
+    height: 70px;
+    margin-top: 30px;
+}
+
+.linsa-para{
+    color: gray;
+}
+
+/* ----------------------sub-box-1-card-4 css---------------------------------- */
+
+.sub-box-1-card-4{
+    /* border: 1px solid black; */
+}
+
+.read-form{
+    /* border: 1px solid red; */
+    margin-top: 10px;
+    background-color: white;
+    border: 20px solid white;
+}
+
+.read-form h4{
+    margin-top: 10px;
+}
+
+.read-form-div-1{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.read-form-div-1 input{
+    /* border: 1px solid red; */
+    border: none;
+    width: 47%;
+    height: 2.5rem;
+    background-color: #ECF0F3;
+}
+
+.read-form-input-1{
+    /* border: 1px solid green; */
+    width: 100%;
+    height: 2.5rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #ECF0F3;
+    border: none;
+}
+
+.read-form textarea{
+    /* border: 1px solid red; */
+    border: none;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #ECF0F3;
+}
+
+.read-form button{
+    border: none;
+    height: 2rem;
+    width: 30%;
+    background-color: #D341FB;
+    color: white;
+}
+
+/* ------------------------------------------------------------------------- */
+
+.readmore-sub-box-2{
+    /* border: 5px solid green; */
+    width: 28%;
+    font-family: 'Quicksand', sans-serif;
+    /* background-color: white; */
+    margin-top: 60px;
+}
+
+.sub-box-2-card-1{
+    /* border: 1px solid blue; */
+}
+
+.readmore-textbox{
+    /* border: 4px solid red; */
+    height: 3rem;
+    background-color: #ECF0F3;
+    color: white;
+    border: 15px solid white;
+    width: 88%;
+}
+
+.read-img{
+    /* border: 1px solid blue; */
+    width: 100%;
+}
+
+.sub-box-2-card-2{
+    /* border: 1px solid black; */
+    margin-top: 20px;
+    background-color: white;
+}
+
+.sub-box-2-card-2 h4{
+    line-height: 35px;
+    font-size: 20px;
+}
+
+.post-div{
+    border: 0.2px solid rgb(244, 243, 243);
+    display: flex;
+    justify-content: space-between;
+}
+
+.post-div p{
+    line-height: 25px;
+    margin-right: 5px;
+}
+
+.sub-box-2-card-3 {
+    /* border: 1px solid red; */
+    margin-top: 20px;
+    background-color: white;
+}
+
+.sub-box-2-card-5{
+    /* border: 1px solid red; */
+    margin-top: 20px;
+    background-color: white;
+}
+
+.sub-box-2-card-5 h4{
+    margin-left: 15px;
+}
+
+.recent-posts{
+    display: flex;
+    /* border: 1px solid red; */
+    margin: 10px 10px;
+}
+.recent-posts img{
+    height: 60px;
+    margin-top: 20px;
+}
+
+.popular-tags{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.popular-tags p{
+    border: 1px solid rgb(196, 195, 195);
+}
+
+@media screen and (min-width: 650px) and (max-width: 1200px){
+    .readmore-main-box{
+        /* border: 3px solid black; */
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 650px){
+    .readmore-main-box{
+        /* border: 3px solid black; */
+        display: block;
+        justify-content: space-around;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .readmore-sub-box-1{
+        /* border: 5px solid red; */
+        width: 100%;
+        font-family: 'Quicksand', sans-serif;
+        /* background-color: white; */
+        margin-top: 0px;
+    }
+    .readmore-sub-box-2{
+        /* border: 5px solid green; */
+        width: 100%;
+        font-family: 'Quicksand', sans-serif;
+        /* background-color: white; */
+        margin-top: 20px;
+    }
+    .sub-box-1-card-1 h2{
+        font-size: 15px;
+    }
+    .sub-box-1-card-1 p{
+        font-size: 12px;
+    }
+    .ajay-content h3{
+        font-size: 15px;
+    }
+    .ajay-content h4{
+        font-size: 15px;
+        color: rgb(72, 72, 72);
+    }
+    .ajay-content p{
+        font-size: 12px;
+    }
+    .sub-box-1-card-3{
+        margin: 20px;
+    }
+    .linsa-para{
+        font-size: 12px;
+    }
+}
